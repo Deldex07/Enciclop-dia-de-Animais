@@ -58,7 +58,7 @@ animal(camaleao_pantera, 'Furcifer pardalis', reptil, floresta, insetivoro, 0.5,
 animal(gecko_leopardo, 'Eublepharis macularius', reptil, deserto, insetivoro, 0.25, 0.08, asia, sexuada_oviparo, 'Perda de habitat').
 animal(cobra_piton, 'Python bivittatus', reptil, floresta, carnivoro, 5.5, 90, asia, sexuada_oviparo, 'Caça e perda de habitat').
 animal(tartaruga_de_couro, 'Dermochelys coriacea', reptil, oceano, carnivoro, 2.0, 700, oceano, sexuada_oviparo, 'Pesca e poluição').
-animal(varano_de_komodo, 'Varanus komodoensis', reptil, ilha, carnivoro, 2.6, 90, oceania, sexuada_oviparo, 'Perda de habitat').
+animal(dragao_de_komodo, 'Varanus komodoensis', reptil, ilha, carnivoro, 2.6, 90, oceania, sexuada_oviparo, 'Perda de habitat').
 
 % -------------------------------
 % Peixes
