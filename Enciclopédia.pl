@@ -177,3 +177,11 @@ comparar_animais(A, B) :-
     format("Continente: ~w / ~w~n", [ContinenteA, ContinenteB]),
     format("Reprodução: ~w / ~w~n", [ReproA, ReproB]),
     format("Principais ameaças: ~w / ~w~n", [AmeacasA, AmeacasB]).
+
+    animal_maior(Animal1, Animal2, Motivo) :-
+    animal(Animal1, _, _, _, _, Altura1, Peso1, _, _, _),
+    animal(Animal2, _, _, _, _, Altura2, Peso2, _, _, _),
+    (Altura1 > Altura2 -> Motivo = altura ;
+     Peso1 > Peso2    -> Motivo = peso ;
+     Altura1 =:= Altura2, Peso1 =:= Peso2 -> Motivo = igual ;
+     false).
