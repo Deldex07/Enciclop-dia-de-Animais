@@ -21,7 +21,7 @@ animal('Leao', 'Panthera leo', mamifero, savana, carnivoro, 1.2, 190, africa, se
 % -------------------------------
 % Aves
 % -------------------------------
-animal('Aguia Real', 'Aquila chrysaetos', ave, montanhas, carnivoro, 0.85, 6.5, europa, sexuada_oviparo, 'Caça e perda de habitat').
+animal('Aguia Real', 'Aquila chrysaetos', ave, montanhas, carnivoro, 0.85, 4.5, europa, sexuada_oviparo, 'Caça e perda de habitat').
 animal('Tucano Toco', 'Ramphastos toco', ave, floresta, frugivoro, 0.6, 0.7, america_do_sul, sexuada_oviparo, 'Desmatamento').
 animal('Pinguim Imperador', 'Aptenodytes forsteri', ave, antartida, carnivoro, 1.15, 35, antartida, sexuada_oviparo, 'Mudanças climáticas').
 animal('Arara Azul', 'Anodorhynchus hyacinthinus', ave, floresta, frugivoro, 1.0, 1.5, america_do_sul, sexuada_oviparo, 'Tráfico e desmatamento').
