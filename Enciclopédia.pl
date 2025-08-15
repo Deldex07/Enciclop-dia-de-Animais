@@ -8,7 +8,7 @@
 % Mamíferos
 % -------------------------------
 animal('Lobo Guará', 'Chrysocyon brachyurus', mamifero, cerrado, onivoro, 0.9, 23, america_do_sul, sexuada_viviparo, 'Destruição de habitat e caça', 16).
-animal('elefante', 'Loxodonta africana', mamifero, savana, herbivoro, 3.3, 6000, africa, sexuada_viviparo, 'Caça por marfim e destruição de habitat', 65).
+animal('Elefante', 'Loxodonta africana', mamifero, savana, herbivoro, 3.3, 6000, africa, sexuada_viviparo, 'Caça por marfim e destruição de habitat', 65).
 animal('Tigre', 'Panthera tigris altaica', mamifero, floresta, carnivoro, 1.1, 220, asia, sexuada_viviparo, 'Caça e perda de habitat', 15).
 animal('Urso Pardo', 'Ursus arctos', mamifero, floresta, onivoro, 1.8, 270, america_do_norte, sexuada_viviparo, 'Perda de habitat', 25).
 animal('Baleia Azul', 'Balaenoptera musculus', mamifero, oceano, carnivoro, 25, 150000, oceano, sexuada_viviparo, 'Caça e poluição sonora', 85).
