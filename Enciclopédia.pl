@@ -150,13 +150,15 @@ dura_mais_que(AnimalA, AnimalB) :-
     animal(AnimalB, _, _, _, _, _, _, _, _, _, TB),
     TA > TB.
 
-animal_maior(Animal1, Animal2, Motivo) :-    
-    animal(Animal1, _, _, _, _, Altura1, Peso1, _, _, _, _),    
-    animal(Animal2, _, _, _, _, Altura2, Peso2, _, _, _, _),    
-    (Altura1 > Altura2 -> Motivo = altura ;    
-     Peso1 > Peso2    -> Motivo = peso ;    
-     Altura1 =:= Altura2, Peso1 =:= Peso2 -> Motivo = igual ;    
-     false).
+animal_maior(Animal1, Animal2, Vencedor, Motivo) :-
+    animal(Animal1, _, _, _, _, Altura1, Peso1, _, _, _, _),
+    animal(Animal2, _, _, _, _, Altura2, Peso2, _, _, _, _),
+    ( Altura1 > Altura2 -> Vencedor = Animal1, Motivo = altura
+    ; Altura2 > Altura1 -> Vencedor = Animal2, Motivo = altura
+    ; Peso1 > Peso2     -> Vencedor = Animal1, Motivo = peso
+    ; Peso2 > Peso1     -> Vencedor = Animal2, Motivo = peso
+    ; Altura1 =:= Altura2, Peso1 =:= Peso2 -> Vencedor = igual, Motivo = igual
+    ).
 
 % ==========================================
 % Exibir informações completas de um animal
