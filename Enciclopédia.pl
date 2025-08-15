@@ -89,7 +89,7 @@ animal('Bicho-pau', 'Phobaeticus chani', inseto, floresta, herbivoro, 0.5, 0.03,
 animal('Mosca', 'Musca domestica', inseto, urbano, onivoro, 0.008, 0.000012, todos_os_continentes, sexuada_oviparo, 'Inseticidas', 0.5479).
 
 % -------------------------------
-% Aracnídeos 
+% Aracnídeos
 % -------------------------------
 animal('Caranguejeira Golias', 'Theraphosa blondi', aracnido, floresta_umida, carnivoro, 0.3, 0.175, america_do_sul, sexuada_oviparo, 'Perda de habitat', 10).
 animal('Viúva negra', 'Latrodectus mactans', aracnido, areas_urbanas, carnivoro, 0.015, 0.0001, america_do_norte, sexuada_oviparo, 'Controle químico', 3).
@@ -144,6 +144,11 @@ animais_por_reproducao(Reproducao, Lista) :-
 % lista animais por ameaça
 animais_por_ameaca(Ameaca, Lista) :-
     findall(Nome, (animal(Nome, _, _, _, _, _, _, _, _, Ameacas, _), sub_string(Ameacas, _, _, _, Ameaca)), Lista).
+
+dura_mais_que(AnimalA, AnimalB) :-
+	animal(AnimalA, _, _, _, _, _, _, _, _, _, TA),
+    animal(AnimalB, _, _, _, _, _, _, _, _, _, TB),
+    TA > TB.
 
 % ==========================================
 % Exibir informações completas de um animal
