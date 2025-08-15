@@ -77,16 +77,16 @@ animal('Cavalo Marinho', 'Hippocampus kuda', peixe, recife_de_coral, carnivoro, 
 % -------------------------------
 % Insetos
 % -------------------------------
-animal('Borboleta monarca', 'Danaus plexippus', inseto, campo, herbivoro, 0.1, 0.0005, america_do_norte, sexuada_oviparo, 'Perda de habitat', 4w).
-animal('Abelha', 'Apis mellifera', inseto, campo, polinivoro, 0.012, 0.0001, europa, sexuada_oviparo, 'Pesticidas e doenças', 45d).
-animal('Besouro hercules', 'Dynastes hercules', inseto, floresta, herbivoro, 0.17, 0.1, america_do_sul, sexuada_oviparo, 'Perda de habitat', 34m).
+animal('Borboleta monarca', 'Danaus plexippus', inseto, campo, herbivoro, 0.1, 0.0005, america_do_norte, sexuada_oviparo, 'Perda de habitat', 0.7671).
+animal('Abelha', 'Apis mellifera', inseto, campo, polinivoro, 0.012, 0.0001, europa, sexuada_oviparo, 'Pesticidas e doenças', 0.1232).
+animal('Besouro hercules', 'Dynastes hercules', inseto, floresta, herbivoro, 0.17, 0.1, america_do_sul, sexuada_oviparo, 'Perda de habitat', 2.79).
 animal('Formiga cortadeira', 'Atta laevigata', inseto, floresta, herbivoro, 0.02, 0.00003, america_do_sul, sexuada_oviparo, 'Mudanças climáticas', 8).
 animal('Libélula verde', 'Libellula depressa', inseto, lago, carnivoro, 0.05, 0.0003, europa, sexuada_oviparo, 'Perda de habitat', 2).
-animal('Grilo', 'Acheta domesticus', inseto, campo, herbivoro, 0.03, 0.002, africa, sexuada_oviparo, 'Predadores e pesticidas', 9w).
-animal('Gafanhoto', 'Schistocerca gregaria', inseto, deserto, herbivoro, 0.07, 0.002, africa, sexuada_oviparo, 'Perda de habitat', 4w).
+animal('Grilo', 'Acheta domesticus', inseto, campo, herbivoro, 0.03, 0.002, africa, sexuada_oviparo, 'Predadores e pesticidas', 0.1726).
+animal('Gafanhoto', 'Schistocerca gregaria', inseto, deserto, herbivoro, 0.07, 0.002, africa, sexuada_oviparo, 'Perda de habitat', 0.7671).
 animal('Barata', 'Periplaneta americana', inseto, urbano, onivoro, 0.05, 0.005, america_do_norte, sexuada_oviparo, 'Controle químico', 1).
 animal('Bicho-pau', 'Phobaeticus chani', inseto, floresta, herbivoro, 0.5, 0.03, asia, sexuada_oviparo, 'Perda de habitat', 1.5).
-animal('Mosca', 'Musca domestica', inseto, urbano, onivoro, 0.008, 0.000012, todos_os_continentes, sexuada_oviparo, 'Inseticidas', 20d).
+animal('Mosca', 'Musca domestica', inseto, urbano, onivoro, 0.008, 0.000012, todos_os_continentes, sexuada_oviparo, 'Inseticidas', 0.5479).
 
 % -------------------------------
 % Aracnídeos 
@@ -94,10 +94,10 @@ animal('Mosca', 'Musca domestica', inseto, urbano, onivoro, 0.008, 0.000012, tod
 animal('Caranguejeira Golias', 'Theraphosa blondi', aracnido, floresta_umida, carnivoro, 0.3, 0.175, america_do_sul, sexuada_oviparo, 'Perda de habitat', 10).
 animal('Viúva negra', 'Latrodectus mactans', aracnido, areas_urbanas, carnivoro, 0.015, 0.0001, america_do_norte, sexuada_oviparo, 'Controle químico', 3).
 animal('Escorpião Amarelo', 'Leiurus quinquestriatus', aracnido, deserto, carnivoro, 0.11, 0.0025, africa, sexuada_ovoviviparo, 'Coleta ilegal', 5).
-animal('Aranha Armadeira', 'Phoneutria nigriventer', aracnido, floresta, carnivoro, 0.05, 0.0015, america_do_sul, sexuada_oviparo, 'Desflorestação', 320d).
+animal('Aranha Armadeira', 'Phoneutria nigriventer', aracnido, floresta, carnivoro, 0.05, 0.0015, america_do_sul, sexuada_oviparo, 'Desflorestação', 0.87).
 animal('Aranha Camelo', 'Galeodes arabs', aracnido, deserto, carnivoro, 0.15, 0.006, asia, sexuada_oviparo, 'Perturbação humana', 1.5).
 animal('Opilião Giante', 'Gagrella ammani', aracnido, cavernas, onivoro, 0.25, 0.01, oceania, sexuada_oviparo, 'Turismo em cavernas', 1.5).
-animal('Acaro Vermelho', 'Tetranychus urticae', aracnido, agricola, herbivoro, 0.0005, 0.0000002, todos_os_continentes, sexuada_oviparo, 'Pesticidas', 3.5w).
+animal('Acaro Vermelho', 'Tetranychus urticae', aracnido, agricola, herbivoro, 0.0005, 0.0000002, todos_os_continentes, sexuada_oviparo, 'Pesticidas', 0.0671232).
 animal('Escorpião Imperador', 'Pandinus imperator', aracnido, floresta, carnivoro, 0.2, 0.03, africa, sexuada_ovoviviparo, 'Comércio de animais', 7).
 animal('Aranha teia-de-funil', 'Atrax robustus', aracnido, areas_urbanas, carnivoro, 0.05, 0.002, oceania, sexuada_oviparo, 'Controle urbano', 9).
 animal('Carrapato Estrela', 'Amblyomma sculptum', aracnido, campos, hematofago, 0.006, 0.00002, america_do_sul, sexuada_oviparo, 'Controle de pragas', 2).
@@ -105,16 +105,17 @@ animal('Carrapato Estrela', 'Amblyomma sculptum', aracnido, campos, hematofago, 
 % -------------------------------
 % Moluscos
 % -------------------------------
-animal('Polvo Comum', 'Octopus vulgaris', molusco, oceano, carnivoro, 1.0, 15, oceano, sexuada_oviparo, 'Pesca e poluição').
-animal('Lula Gigante', 'Architeuthis dux', molusco, oceano, carnivoro, 13.0, 500, oceano, sexuada_oviparo, 'Pesca e poluição').
-animal('Ostra Perolera', 'Pinctada maxima', molusco, oceano, filtrador, 0.25, 2, oceano, sexuada_oviparo, 'Poluição e coleta para pérolas').
-animal('Mexilhão', 'Mytilus edulis', molusco, oceano, filtrador, 0.1, 0.02, oceano, sexuada_oviparo, 'Poluição e sobrepesca').
-animal('Nudibranquio', 'Chromodoris willani', molusco, oceano, carnivoro, 0.06, 0.02, oceano, sexuada_oviparo, 'Poluição').
-animal('Choco', 'Sepia officinalis', molusco, oceano, carnivoro, 0.5, 12, atlantico, sexuada_oviparo, 'Pesca').
-animal('Caracol', 'Conus magus', molusco, oceano, carnivoro, 0.1, 0.02, oceano, sexuada_oviparo, 'Poluição e coleta').
-animal('Polvo Anelado Azul', 'Hapalochlaena lunulata', molusco, oceano, carnivoro, 0.2, 0.05, oceano_indico, sexuada_oviparo, 'Poluição e coleta').
-animal('Ameijoa Gigante', 'Tridacna gigas', molusco, oceano, filtrador, 1.2, 200, oceano_pacifico, sexuada_oviparo, 'Destruição de habitat e coleta').
-animal('Lesma Verde', 'Limax maximus', molusco, jardim, herbivoro, 0.2, 0.03, europa, sexuada_oviparo, 'Pesticidas').
+animal('Polvo Comum', 'Octopus vulgaris', molusco, oceano, carnivoro, 1.0, 15, oceano, sexuada_oviparo, 'Pesca e poluição', 1.5).
+animal('Lula Gigante', 'Architeuthis dux', molusco, oceano, carnivoro, 13.0, 500, oceano, sexuada_oviparo, 'Pesca e poluição', 4).
+animal('Ostra perlífera', 'Magallana gigas', molusco, oceano, filtrador, 0.25, 2, oceano, sexuada_oviparo, 'Poluição e coleta para pérolas', 50).
+animal('Mexilhão', 'Mytilus edulis', molusco, oceano, filtrador, 0.1, 0.02, oceano, sexuada_oviparo, 'Poluição e sobrepesca', 20).
+animal('Nudibranquio', 'Chromodoris willani', molusco, oceano, carnivoro, 0.06, 0.02, oceano, sexuada_oviparo, 'Poluição', 1).
+animal('Choco', 'Sepia officinalis', molusco, oceano, carnivoro, 0.5, 12, atlantico, sexuada_oviparo, 'Pesca', 2).
+animal('Caracol', 'Conus magus', molusco, oceano, carnivoro, 0.1, 0.02, oceano, sexuada_oviparo, 'Poluição e coleta', 5).
+animal('Polvo Anelado Azul', 'Hapalochlaena lunulata', molusco, oceano, carnivoro, 0.2, 0.05, oceano_indico, sexuada_oviparo, 'Poluição e coleta', 0.7).
+animal('Ameijoa Gigante', 'Tridacna gigas', molusco, oceano, filtrador, 1.2, 200, oceano_pacifico, sexuada_oviparo, 'Destruição de habitat e coleta', 100).
+animal('Lesma Verde', 'Limax maximus', molusco, jardim, herbivoro, 0.2, 0.03, europa, sexuada_oviparo, 'Pesticidas', 3).
+
 
 % ==========================================
 % Funções de busca
@@ -122,34 +123,34 @@ animal('Lesma Verde', 'Limax maximus', molusco, jardim, herbivoro, 0.2, 0.03, eu
 
 % lista animais por classe
 animais_por_classe(Classe, Lista) :-
-    findall(Nome, animal(Nome, _, Classe, _, _, _, _, _, _, _), Lista).
+    findall(Nome, animal(Nome, _, Classe, _, _, _, _, _, _, _, _), Lista).
 
 % lista animais por habitat
 animais_por_habitat(Habitat, Lista) :-
-    findall(Nome, animal(Nome, _, _, Habitat, _, _, _, _, _, _), Lista).
+    findall(Nome, animal(Nome, _, _, Habitat, _, _, _, _, _, _, _), Lista).
 
 % lista animais por dieta
 animais_por_dieta(Dieta, Lista) :-
-    findall(Nome, animal(Nome, _, _, _, Dieta, _, _, _, _, _), Lista).
+    findall(Nome, animal(Nome, _, _, _, Dieta, _, _, _, _, _, _), Lista).
 
 % lista animais por continente
 animais_por_continente(Continente, Lista) :-
-    findall(Nome, animal(Nome, _, _, _, _, _, _, Continente, _, _), Lista).
+    findall(Nome, animal(Nome, _, _, _, _, _, _, Continente, _, _, _), Lista).
 
 % lista animais por tipo de reprodução
 animais_por_reproducao(Reproducao, Lista) :-
-    findall(Nome, animal(Nome, _, _, _, _, _, _, _, Reproducao, _), Lista).
+    findall(Nome, animal(Nome, _, _, _, _, _, _, _, Reproducao, _, _), Lista).
 
 % lista animais por ameaça
 animais_por_ameaca(Ameaca, Lista) :-
-    findall(Nome, (animal(Nome, _, _, _, _, _, _, _, _, Ameacas), sub_string(Ameacas, _, _, _, Ameaca)), Lista).
+    findall(Nome, (animal(Nome, _, _, _, _, _, _, _, _, Ameacas, _), sub_string(Ameacas, _, _, _, Ameaca)), Lista).
 
 % ==========================================
 % Exibir informações completas de um animal
 % ==========================================
 
 info_animal(NomeComum) :-
-    animal(NomeComum, NomeCientifico, Classe, Habitat, Dieta, Altura, Peso, Continente, Reproducao, Ameacas),
+    animal(NomeComum, NomeCientifico, Classe, Habitat, Dieta, Altura, Peso, Continente, Reproducao, Ameacas, TempoVidaAnos),
     format("Nome comum: ~w~n", [NomeComum]),
     format("Nome científico: ~w~n", [NomeCientifico]),
     format("Classe: ~w~n", [Classe]),
@@ -159,15 +160,16 @@ info_animal(NomeComum) :-
     format("Peso médio: ~2f kg~n", [Peso]),
     format("Continente de origem: ~w~n", [Continente]),
     format("Tipo de reprodução: ~w~n", [Reproducao]),
-    format("Principais ameaças: ~w~n", [Ameacas]).
+    format("Principais ameaças: ~w~n", [Ameacas]),
+    format("Tempo de vida (anos): ~w~n", [TempoVidaAnos]).
 
 % ==========================================
 % Comparar dois animais
 % ==========================================
 
 comparar_animais(A, B) :-
-    animal(A, _, ClasseA, HabitatA, DietaA, AlturaA, PesoA, ContinenteA, ReproA, AmeacasA),
-    animal(B, _, ClasseB, HabitatB, DietaB, AlturaB, PesoB, ContinenteB, ReproB, AmeacasB),
+    animal(A, _, ClasseA, HabitatA, DietaA, AlturaA, PesoA, ContinenteA, ReproA, AmeacasA, TA),
+    animal(B, _, ClasseB, HabitatB, DietaB, AlturaB, PesoB, ContinenteB, ReproB, AmeacasB, TB),
     format("Comparação entre ~w e ~w~n", [A, B]),
     format("Classe: ~w / ~w~n", [ClasseA, ClasseB]),
     format("Habitat: ~w / ~w~n", [HabitatA, HabitatB]),
@@ -176,4 +178,5 @@ comparar_animais(A, B) :-
     format("Peso: ~2f kg / ~2f kg~n", [PesoA, PesoB]),
     format("Continente: ~w / ~w~n", [ContinenteA, ContinenteB]),
     format("Reprodução: ~w / ~w~n", [ReproA, ReproB]),
-    format("Principais ameaças: ~w / ~w~n", [AmeacasA, AmeacasB]).
+    format("Principais ameaças: ~w / ~w~n", [AmeacasA, AmeacasB]),
+    format("Tempo de vida (anos): ~w / ~w~n", [TA, TB]).
