@@ -78,7 +78,7 @@ animal('Cavalo Marinho', 'Hippocampus kuda', peixe, recife_de_coral, carnivoro, 
 % Insetos
 % -------------------------------
 animal('Borboleta monarca', 'Danaus plexippus', inseto, campo, herbivoro, 0.1, 0.0005, america_do_norte, sexuada_oviparo, 'Perda de habitat', 0.7671).
-animal('Abelha', 'Apis mellifera', inseto, campo, polinivoro, 0.012, 0.0001, europa, sexuada_oviparo, 'Pesticidas e doenças', 0.1232).
+animal('Abelha europeia', 'Apis mellifera', inseto, campo, polinivoro, 0.012, 0.0001, europa, sexuada_oviparo, 'Pesticidas e doenças', 0.1232).
 animal('Besouro hercules', 'Dynastes hercules', inseto, floresta, herbivoro, 0.17, 0.1, america_do_sul, sexuada_oviparo, 'Perda de habitat', 2.79).
 animal('Formiga cortadeira', 'Atta laevigata', inseto, floresta, herbivoro, 0.02, 0.00003, america_do_sul, sexuada_oviparo, 'Mudanças climáticas', 8).
 animal('Libélula verde', 'Libellula depressa', inseto, lago, carnivoro, 0.05, 0.0003, europa, sexuada_oviparo, 'Perda de habitat', 2).
