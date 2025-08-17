@@ -160,6 +160,11 @@ animal_maior(Animal1, Animal2, Vencedor, Motivo) :-
     ; Altura2 > Altura1 -> Vencedor = Animal2, Motivo = altura
     ; Altura1 =:= Altura2, Peso1 =:= Peso2 -> Vencedor = igual, Motivo = igual
     ).
+
+% Lista animais filtrando por Continente e Habitat
+animais_por_continente_e_habitat(Continente, Habitat, Lista) :-
+    findall(Nome, animal(Nome, _, _, Habitat, _, _, _, Continente, _, _, _), Lista).
+ 
 % ==========================================
 % Exibir informações completas de um animal
 % ==========================================
