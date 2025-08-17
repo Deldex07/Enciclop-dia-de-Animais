@@ -112,7 +112,7 @@ animal('Mexilhão', 'Mytilus edulis', molusco, oceano, filtrador, 0.1, 0.02, oce
 animal('Nudibranquio', 'Chromodoris willani', molusco, oceano, carnivoro, 0.06, 0.02, oceano, sexuada_oviparo, 'Poluição', 1).
 animal('Choco', 'Sepia officinalis', molusco, oceano, carnivoro, 0.5, 12, atlantico, sexuada_oviparo, 'Pesca', 2).
 animal('Caracol', 'Conus magus', molusco, oceano, carnivoro, 0.1, 0.02, oceano, sexuada_oviparo, 'Poluição e coleta', 5).
-animal('Polvo Anelado Azul', 'Hapalochlaena lunulata', molusco, oceano, carnivoro, 0.2, 0.05, oceano_indico, sexuada_oviparo, 'Poluição e coleta', 0.7).
+animal('Polvo Anelado Azul', 'Hapalochlaena lunulata', molusco, oceano, carnivoro, 0.2, 0.05, oceano_indico, sexuada_oviparo, 'Poluição e coleta', 2.5).
 animal('Ameijoa Gigante', 'Tridacna gigas', molusco, oceano, filtrador, 1.2, 200, oceano_pacifico, sexuada_oviparo, 'Destruição de habitat e coleta', 100).
 animal('Lesma Verde', 'Limax maximus', molusco, jardim, herbivoro, 0.2, 0.03, europa, sexuada_oviparo, 'Pesticidas', 3).
 
