@@ -162,10 +162,10 @@ animal_maior(Animal1, Animal2, Vencedor, Motivo) :-
     ).
 
 te_vi_por_aqui(Habitat, Classe) :-
-	animal(_, _, Classe, Habitat, _, _, _, _, _, _).
+	animal(_, _, Classe, Habitat, _, _, _, _, _, _, _).
 
 quem_vi_por_aqui(Nome, Habitat, Classe) :-
-	animal(Nome, _, Classe, Habitat, _, _, _, _, _, _).
+	animal(Nome, _, Classe, Habitat, _, _, _, _, _, _, _).
 
 habitat_maior(Habitat1, Habitat1) :-
 	animais_por_habitatt(Classe, Lista1),
