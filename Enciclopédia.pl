@@ -163,14 +163,16 @@ animal_maior(Animal1, Animal2, Vencedor, Motivo) :-
 
 te_vi_por_aqui(Habitat, Classe) :-
 	animal(_, _, Classe, Habitat, _, _, _, _, _, _).
+
 quem_vi_por_aqui(Nome, Habitat, Classe) :-
 	animal(Nome, _, Classe, Habitat, _, _, _, _, _, _).
+
 habitat_maior(Habitat1, Habitat1) :-
-animais_por_habitatt(Classe, Lista1),
-animais_por_habitatt(Classe, Lista2),
-length(Lista1,L1),
-length(Lista2,L2),
-L1 > L2.
+	animais_por_habitatt(Classe, Lista1),
+	animais_por_habitatt(Classe, Lista2),
+	length(Lista1,L1),
+	length(Lista2,L2),
+	L1 > L2.
 
 % Lista animais filtrando por Continente e Habitat
 animais_por_continente_e_habitat(Continente, Habitat, Lista) :-
